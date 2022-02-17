@@ -21,3 +21,117 @@ export const LoginLink = styled.a`
   }
 `;
 export const Image = styled.img``;
+
+export const LoginButton = styled.a`
+  font-size: 16px;
+  padding: 10px 12px;
+  text-decoration: none;
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  margin-right: 12px;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+  }
+`;
+
+export const Signin = styled.a`
+  box-shadow: inset 0 0 0 1px #0a66c2;
+  color: #0a66c2;
+  border-radius: 24px;
+  transition-duration: 167ms;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 40px;
+  padding: 10px 24px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+
+  &:hover {
+    background-color: rgba(112, 181, 249, 0.15);
+    color: #0a66c2;
+  }
+`;
+
+export const Section = styled.section`
+  align-content: start;
+  display: flex;
+  min-height: 700px;
+  padding-bottom: 138px;
+  padding-top: 40px;
+  padding: 0px 40px;
+  position: relative;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  @media (max-width: 768px) {
+    margin: auto;
+    min-height: 0px;
+  }
+`;
+
+export const HeroSection = styled.div`
+  width: 100%;
+`;
+export const HeroSectionH1 = styled.h1`
+  padding-bottom: o;
+  width: 55%;
+  font-size: 56px;
+  color: #2977c9;
+  font-weight: 200;
+  line-height: 70px;
+  @media (max-width: 768px) {
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    line-height: 2;
+  }
+`;
+export const HeroImage = styled.img`
+  /* z-index: -1; */
+  width: 700px;
+  height: 670px;
+  position: absolute;
+  bottom: -2px;
+  right: -150px;
+  @media (max-width: 768px) {
+    top: 230px;
+    width: initial;
+    position: initial;
+    height: initial;
+  }
+`;
+
+export const LoginForm = styled.div`
+  margin-top: 100px;
+  width: 480px;
+  @media (max-width: 768px) {
+    margin-top: 20px;
+  }
+`;
+export const LoginFormButton = styled.button`
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  align-items: center;
+  height: 56px;
+  width: 100%;
+  border-radius: 28px;
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 60%), inset 0 0 0 2px rgb(0 0 0 / 0%),
+    inset 0 0 0 1px rgb(0 0 0 / 0);
+  vertical-align: middle;
+  z-index: 0;
+  transition-duration: 167ms;
+  font-size: 20px;
+  color: rgb(0, 0, 0, 0.6);
+
+  &:hover {
+    background-color: rgba(207, 207, 207, 0.25);
+    color: rgba(0, 0, 0, 0.75);
+  }
+`;
+export const LoginFormImage = styled.img``;
